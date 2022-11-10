@@ -6,7 +6,7 @@ const { MongoClient, ObjectId } = require("mongodb");
 require("dotenv").config();
 const jwt = require("jsonwebtoken");
 
-// Middlewares
+// Middlewaress
 app.use(cors());
 app.use(express.json());
 
@@ -114,7 +114,7 @@ run().catch((err) => {
 });
 
 app.get("/", (req, res) => {
-  res.send("This is an api");
+  res.send("This is a astutePhotography Api");
 });
 
 app.listen(port);
